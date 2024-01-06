@@ -1,0 +1,26 @@
+{
+  "name": "word-game",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Chris Madison",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "scripts": {
+    "predev": "rimraf .parcel-cache dist",
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "new-component": "new-component"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-react-app": "^7.0.1",
+    "new-component": "^5.0.2",
+    "parcel": "^2.11.0",
+    "prettier": "^3.1.1",
+    "process": "^0.11.10",
+    "rimraf": "^5.0.5"
+  }
+}
